@@ -19,6 +19,19 @@ main {
     min-height: 250px;
 }
 
+.imam-img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    height: 300px;
+
+}
+@media (min-width: 768px) {
+    .imam-img {
+        height: 100%;
+    }
+}
 .carusel-blick-img {
     background-position: center center;
     background-repeat: no-repeat;

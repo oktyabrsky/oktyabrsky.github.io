@@ -44,55 +44,79 @@
 
 
         <section>
-            <div class="card mb-3 shadow rounded-5 border-0">
-                <div class="row g-0">
-                    <div class="col-md-6">
-                        <img src="/naznachenie03.jpeg" class="img-fluid  rounded-5" alt="...">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card-body ">
-                            <p class="card-title text-black-50 text-uppercase ">
-                            <div class=" d-flex flex-row justify-content-between align-items-center">
-                                <div>
-                                    <small class=" h4 text-muted">Имам</small>
+            <div class=" container-fluid">
+                <div class="row g-4">
+                    <!-- КАРТОЧКА ИМАМА -->
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 col-xxl-8 ">
+                        <div class="card h-100  shadow rounded-5 border-0">
+                            <div class="row h-100">
+                                <div class="col-md-6">
+                                    <div style="background-image: url(/naznachenie03.jpeg);"
+                                        class="imam-img w-100  rounded-5"></div>
                                 </div>
-                                <div>
-                                    <a class="icon-in-navbar" href="https://t.me/shamil_alibekov">
-                                        <img
-                                            src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/null/external-telegram-is-a-cloud-based-instant-messaging-and-voice-over-ip-service-logo-color-tal-revivo.png" />
-                                    </a>
-                                    <a class="icon-in-navbar " href="https://vk.com/sayfullah_aknadinskiy">
-                                        <img
-                                            src="https://img.icons8.com/external-others-inmotus-design/67/null/external-VKontakte-vkontakte-others-inmotus-design-2.png" />
-                                    </a>
-                                    <small class=" text-primary">|</small>
-                                    <a class="icon-in-navbar" href="tel:89858464474">
-                                        <img
-                                            src="https://img.icons8.com/external-anggara-flat-anggara-putra/64/null/external-phone-ui-basic-anggara-flat-anggara-putra.png" />
-                                    </a>
-                                    <a class="icon-in-navbar" href="mailto:altamir95@yandex.ru">
-                                        <img src="https://img.icons8.com/fluency/48/null/secured-letter.png" />
-                                    </a>
+                                <div class="col-md-6 ">
+                                    <div class="card-body ">
+                                        <p class="card-title text-black-50 text-uppercase ">
+                                        <div class=" d-flex flex-row  justify-content-between align-items-center">
+                                            <div>
+                                                <small class=" h4 text-muted">Имам</small>
+                                            </div>
+                                            <div>
+                                                <a class="icon-in-navbar" href="https://t.me/shamil_alibekov">
+                                                    <img
+                                                        src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/null/external-telegram-is-a-cloud-based-instant-messaging-and-voice-over-ip-service-logo-color-tal-revivo.png" />
+                                                </a>
+                                                <a class="icon-in-navbar " href="https://vk.com/sayfullah_aknadinskiy">
+                                                    <img
+                                                        src="https://img.icons8.com/external-others-inmotus-design/67/null/external-VKontakte-vkontakte-others-inmotus-design-2.png" />
+                                                </a>
+                                                <small class=" text-primary">|</small>
+                                                <a class="icon-in-navbar" href="tel:89858464474">
+                                                    <img
+                                                        src="https://img.icons8.com/external-anggara-flat-anggara-putra/64/null/external-phone-ui-basic-anggara-flat-anggara-putra.png" />
+                                                </a>
+                                                <a class="icon-in-navbar" href="mailto:altamir95@yandex.ru">
+                                                    <img
+                                                        src="https://img.icons8.com/fluency/48/null/secured-letter.png" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        </p>
+                                        <p class="card-text h2">
+                                            Умарасхаб<br>Арсланалиев<br>Магомедович
+                                        </p>
+                                        <a class=" text-muted small "
+                                            href="mailto:altamir95@yandex.ru">altamir95@yandex.ru</a>
+                                        <br>
+                                        <a class=" text-muted small" href="tel:89858464474"> 8(985) 846-44-74</a>
+                                    </div>
                                 </div>
                             </div>
-                            </p>
-                            <p class="card-text h4">
-                                Умарасхаб<br>Арсланалиев<br>Магомедович
-                            </p>
-                            <a class=" text-muted small " href="mailto:altamir95@yandex.ru">altamir95@yandex.ru</a>
-                            <br>
-                            <a class=" text-muted small" href="tel:89858464474"> 8(985) 846-44-74</a>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
 
+                    <!-- ОБРАТНЫЙ ЗВОНОК -->
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4 ">
+                        <div class=" rounded-5 bg-dark w-100 h-100 text-white p-4">
+                            <form>
+                                <legend>Форма обратной связи</legend>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Номер телефона</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Тема вапроса</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <button id="form-btn" type="submit" class="btn btn-primary">Отправить</button>
+                                <div id="form-btn" class="form-text">Вопрос будет отправлен к имаму и он свяжеться свами сразу же как освободиться.</div>
+                            </form>
+                        </div>
+                    </div>
 
-        <section>
-            <div class=" container-fluid m-0 p-0">
-                <div class="row">
-                    <div class="col-12 col-sm-7 col-md-6 col-lg-4 col-xl-4 col-xxl-3 mb-5">
+                    <!-- УСЛУГИ -->
+                    <div class="col-12 col-sm-7 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
                         <ul class="list-group rounded-5 shadow border-0">
                             <li class="list-group-item">
                                 <img class="icon-in-btn mx-2 "
@@ -142,46 +166,46 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-12 col-sm-5 col-md-6 col-lg-8 col-xl-8 col-xxl-9 mb-5">
+
+                    <!-- КАРТА -->
+                    <div class="col-12 col-sm-5 col-md-6 col-lg-8 col-xl-8 col-xxl-9">
                         <iframe class=" w-100 h-100 rounded-5 map shadow m-0 p-0"
                             src="https://yandex.ru/map-widget/v1/?um=constructor%3A2eed1665a1cfd208f75416d2b546178f2ad2f506a089b80df2e0f98134dc662c&amp;source=constructor"
                             frameborder="0"></iframe>
                     </div>
+
+                    <!-- АЛЬБОМ -->
+                    <div class="col-12">
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div style="background-image: url(https://i4.photo.2gis.com/images/branch/113/15903336216186134_dcaf.jpg);"
+                                        class="carusel-blick-img w-100 rounded-5"></div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div style="background-image: url(https://img.tourister.ru/files/2/5/1/1/4/5/6/8/original.jpg);"
+                                        class="carusel-blick-img w-100 rounded-5"></div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div style="background-image: url(https://islamdag.ru/sites/default/files/img/2018/news/mechet_0062.jpg);"
+                                        class="carusel-blick-img w-100 rounded-5"></div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Предыдущий</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Следующий</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div>
         </section>
-
-
-
-        <section>
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div style="background-image: url(https://i4.photo.2gis.com/images/branch/113/15903336216186134_dcaf.jpg);" class="carusel-blick-img w-100 rounded-5"></div>
-                    </div>
-                    <div class="carousel-item">
-                        <div style="background-image: url(https://img.tourister.ru/files/2/5/1/1/4/5/6/8/original.jpg);" class="carusel-blick-img w-100 rounded-5"></div>
-                    </div>
-                    <div class="carousel-item">
-                        <div style="background-image: url(https://islamdag.ru/sites/default/files/img/2018/news/mechet_0062.jpg);" class="carusel-blick-img w-100 rounded-5"></div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                </button>
-            </div>
-        </section>
-
-
-
     </main>
     <footer>
 
