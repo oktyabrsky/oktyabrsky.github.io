@@ -11,9 +11,44 @@
     width: 1.3rem;
 }
 
-main{
+main {
     margin-top: 60px;
 }
-.map{
+
+.map {
     min-height: 250px;
+}
+
+.carusel-blick-img {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+
+    height: 300px;
+}
+@media (min-width: 576px) {
+    .carusel-blick-img {
+        height: 500px;
+    }
+}
+@media (min-width: 768px) {
+    .carusel-blick-img {
+        height: 600px;
+    }
+}
+@media (min-width: 992px) {
+    .carusel-blick-img {
+        height: 600px;
+    }
+}
+@media (min-width: 1200px) {
+    .carusel-blick-img {
+        height: 600px;
+    }
+}
+@media (min-width: 1400px) {
+    .carusel-blick-img {
+        height: 600px;
+    }
 }
