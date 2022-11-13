@@ -1,0 +1,19 @@
+.icon-in-navbar img {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-in-navbar {
+    text-decoration: none;
+}
+
+.icon-in-btn {
+    width: 1.3rem;
+}
+
+main{
+    margin-top: 60px;
+}
+.map{
+    min-height: 250px;
+}
