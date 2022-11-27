@@ -1,0 +1,50 @@
+[
+    {
+        "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3A82106dec230fc60fb340dbff33ad1f42c2371c81424db01578b1f2ba514aa566&amp;source=constructor",
+        "name": "Балашиха",
+        "address": "ул. 60 лет Победы, третий рабочий поселок Октяборьский, вход со двора.",
+        "domain": "balashikha",
+        "employee": {
+            "fname": "Гусейн",
+            "mname": "Магомедович",
+            "lname": "Гитингаджиев",
+            "avatar": "https://i.ibb.co/gZB35Xw/imam-balashikha.jpg",
+            "email": "dptsmb@bk.ru",
+            "phoneNumber": "8 (967) 156-00-09",
+            "smList": [
+                {
+                    "icon": "https://img.icons8.com/fluency/240/null/instagram-new.png",
+                    "path": "https://www.instagram.com/huseynhazrat"
+                }
+            ]
+        },
+        "photo": "https://i.ibb.co/y5kbF6d/imam-oktyabrsky.jpg",
+        "email": "boec199@inbox.ru",
+        "phoneNumber": "8 (926) 327-36-22",
+        "smList": [],
+        "album": [
+            "https://i.ibb.co/KqqzHfw/photo-2022-11-23-15-22-27.jpg",
+            "https://i.ibb.co/nMrvLBC/photo-2022-11-23-15-22-26-2.jpg",
+            "https://i.ibb.co/ynLF8P0/photo-2022-11-23-15-22-26.jpg"
+        ]
+    },
+    {
+        "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3A883789144e5eda5cd9a525408354d29d61a9825754a32d39dab13b22ec613264&amp;source=constructor",
+        "name": "Октябрьский",
+        "address": "ул. 60 лет Победы, третий рабочий поселок Октяборьский, вход со двора.",
+        "domain": "oktyabrsky",
+        "employee": {
+            "fname": "Мухаммад-Сиддик",
+            "mname": "Алиевич",
+            "lname": "Сидиков",
+            "avatar": "https://i.ibb.co/y5kbF6d/imam-oktyabrsky.jpg",
+            "email": "boec199@inbox.ru",
+            "phoneNumber": "8 (988) 778 66 66",
+            "smList": []
+        },
+        "photo": "https://i.ibb.co/y5kbF6d/imam-oktyabrsky.jpg",
+        "email": "boec199@inbox.ru",
+        "phoneNumber": "8 (988) 778 66 66",
+        "smList": []
+    }
+]
