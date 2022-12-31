@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Демо Bootstrap</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -27,9 +27,6 @@
         </nav>
     </header>
     <main class=" p-3 p-sm-4 p-md-5 p-lg-5">
-
-
-
         <section>
             <div class=" container-fluid">
                 <div class="row g-4">
@@ -119,27 +116,34 @@
             RendServ(data);
         });
 
+
+
         function GoRend(dataJson) {
-            $('#imgplace').append(`<div style="background-image: url(${dataJson[0].employee.avatar});" class="imam-img w-100  rounded-5"></div>`);
-            $('#sitename').append(dataJson[0].name);
-            $('#imamname').append(`${dataJson[0].employee.lname}<br>${dataJson[0].employee.fname}<br>${dataJson[0].employee.mname}`);
-            dataJson[0].employee.smList.forEach(element => {
+            var curentHostname = window.location.hostname;
+            console.log(curentHostname);
+            let curentData = dataJson.filter(x => curentHostname.includes(x.hostname))[0];
+            console.log(curentData);
+
+            $('#imgplace').append(`<div style="background-image: url(${curentData.employee.avatar});" class="imam-img w-100  rounded-5"></div>`);
+            $('#sitename').append(curentData.name);
+            $('#imamname').append(`${curentData.employee.lname}<br>${curentData.employee.fname}<br>${curentData.employee.mname}`);
+            curentData.employee.smList.forEach(element => {
                 AddSM("#smimamlist", element.path, element.icon)
             });
-            $('#imamcard').append(`<a class="text-muted small" href="mailto:${dataJson[0].employee.email}" id="imamemail">${dataJson[0].employee.email}</a>`);
-            AddSM("#smimamlist", `mailto:${dataJson[0].employee.email}`, "https://img.icons8.com/fluency/48/null/secured-letter.png")
+            $('#imamcard').append(`<a class="text-muted small" href="mailto:${curentData.employee.email}" id="imamemail">${curentData.employee.email}</a>`);
+            AddSM("#smimamlist", `mailto:${curentData.employee.email}`, "https://img.icons8.com/fluency/48/null/secured-letter.png")
             $('#imamcard').append(`<br>`);
-            $('#imamcard').append(`<a class=" text-muted small" href="tel:${dataJson[0].employee.phoneNumber}">${dataJson[0].employee.phoneNumber}</a>`);
-            AddSM("#smimamlist", `mailto:${dataJson[0].employee.phoneNumber}`, "https://img.icons8.com/external-anggara-flat-anggara-putra/64/null/external-phone-ui-basic-anggara-flat-anggara-putra.png")
-            $('#yandexmap').append(`<iframe class=" w-100 h-100 rounded-5 map shadow m-0 p-0" src="${dataJson[0].yandex}" frameborder="0"></iframe>`);
+            $('#imamcard').append(`<a class=" text-muted small" href="tel:${curentData.employee.phoneNumber}">${curentData.employee.phoneNumber}</a>`);
+            AddSM("#smimamlist", `mailto:${curentData.employee.phoneNumber}`, "https://img.icons8.com/external-anggara-flat-anggara-putra/64/null/external-phone-ui-basic-anggara-flat-anggara-putra.png")
+            $('#yandexmap').append(`<iframe class=" w-100 h-100 rounded-5 map shadow m-0 p-0" src="${curentData.yandex}" frameborder="0"></iframe>`);
 
 
-            dataJson[0].smList.forEach(element => {
+            curentData.smList.forEach(element => {
                 AddSM("#socialmeadia", element.path, element.icon)
             });
 
 
-            if (dataJson[0].album.length > 0) {
+            if (curentData.album.length > 0) {
                 $('#albumplace').append(`<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                             <div class="carousel-inner" id="albumitems">
                                 
@@ -156,9 +160,9 @@
                             </button>
                         </div>`);
 
-                dataJson[0].album.forEach(element => {
+                curentData.album.forEach(element => {
                     let activevalue = "";
-                    if (dataJson[0].album[0] === element)
+                    if (curentData.album[0] === element)
                         activevalue = "active";
                     $('#albumitems').append(`<div class="carousel-item ${activevalue}"><div style="background-image: url(${element});" class="carusel-blick-img w-100 rounded-5"></div></div>`);
                 });
