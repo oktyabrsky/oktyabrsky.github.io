@@ -62,6 +62,7 @@
     {
         "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3A883789144e5eda5cd9a525408354d29d61a9825754a32d39dab13b22ec613264&amp;source=constructor",
         "name": "Октябрьский",
+        "hostname":"oktyabrsky.github.io",
         "address": "ул. 60 лет Победы, третий рабочий поселок Октяборьский, вход со двора.",
         "domain": "oktyabrsky",
         "employee": {
