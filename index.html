@@ -119,8 +119,8 @@
 
 
         function GoRend(dataJson) {
-            // var curentHostname = window.location.hostname;
-            var curentHostname = "ramenskoe.github.io";
+            var curentHostname = window.location.hostname;
+            // var curentHostname = "ramenskoe.github.io";
             console.log(curentHostname);
             let curentData = dataJson.filter(x => curentHostname.includes(x.hostname))[0];
             console.log(curentData);
