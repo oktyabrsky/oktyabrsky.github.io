@@ -128,7 +128,7 @@
 
             $('#imgplace').append(`<div style="background-image: url(${curentData.employee.avatar});" class="imam-img w-100  rounded-5"></div>`);
             $('#sitename').append(curentData.name);
-            $('#imamname').append(`${curentData.employee.lname}<br>${curentData.employee.fname}<br>${curentData.employee.mname}`);
+            $('#imamname').append(`${curentData.employee.lname}<br>${curentData.employee.fname} Хазрат<br>${curentData.employee.mname}`);
             curentData.employee.smList.forEach(element => {
                 AddSM("#smimamlist", element.path, element.icon)
             });
