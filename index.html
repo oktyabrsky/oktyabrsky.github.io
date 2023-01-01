@@ -138,7 +138,7 @@
             $('#imamcard').append(`<br>`);
             $('#imamcard').append(`<a class=" text-muted small" href="tel:${curentData.employee.phoneNumber}">${curentData.employee.phoneNumber}</a>`);
             if (curentData.employee.phoneNumber)
-                AddSM("#smimamlist", `mailto:${curentData.employee.phoneNumber}`, "https://img.icons8.com/external-anggara-flat-anggara-putra/64/null/external-phone-ui-basic-anggara-flat-anggara-putra.png")
+                AddSM("#smimamlist", `tel:${curentData.employee.phoneNumber}`, "https://img.icons8.com/external-anggara-flat-anggara-putra/64/null/external-phone-ui-basic-anggara-flat-anggara-putra.png")
             $('#yandexmap').append(`<iframe class=" w-100 h-100 rounded-5 map shadow m-0 p-0" src="${curentData.yandex}" frameborder="0"></iframe>`);
 
 
