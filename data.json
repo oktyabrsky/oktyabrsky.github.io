@@ -179,21 +179,35 @@
         ]
     },
     {
-        "yandex": "",
-        "name": "",
-        "hostname": "",
-        "address": "",
+        "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3A6fdb137a7876c0baf2b5e8124b69098a1db024e997afc603b09a1458de9569ca&amp;source=constructor",
+        "name": "Фрязино",
+        "hostname": "fryazino.github.io",
+        "address": "ул. Московская, 4, Фрязино, Московская обл.",
         "employee": {
-            "fname": "",
-            "mname": "",
-            "lname": "",
-            "avatar": "",
-            "email": "",
-            "phoneNumber": "",
-            "smList": []
+            "fname": "Махмудапанди",
+            "mname": "Магомедалиевич",
+            "lname": "Гусенгаджиев",
+            "avatar": "https://i.ibb.co/KwQ0JTs/photo-2022-11-28-20-00-41.jpg",
+            "email": "mahmudapandi@hotmail .com",
+            "phoneNumber": "89658884146",
+            "smList": [
+                {
+                    "icon": "https://img.icons8.com/fluency/240/null/instagram-new.png",
+                    "path": "https://www.instagram.com/1_mahmud_afandi_1"
+                }
+            ]
         },
         "email": "",
         "phoneNumber": "",
-        "smList": []
+        "smList": [
+            {
+                "icon": "https://img.icons8.com/fluency/240/null/instagram-new.png",
+                "path": "https://www.instagram.com/mrom.fryazino"
+            }
+        ],
+        "album": [
+            "https://i.ibb.co/fNFtWv2/photo-2022-11-28-20-00-43.jpg",
+            "https://i.ibb.co/PwcG5wM/photo-2022-11-28-20-00-45.jpg"
+        ]
     }
 ]
