@@ -2,9 +2,8 @@
     {
         "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3A82106dec230fc60fb340dbff33ad1f42c2371c81424db01578b1f2ba514aa566&amp;source=constructor",
         "name": "Балашиха",
-        "hostname":"127.0.0.1",
+        "hostname": "127.0.0.1",
         "address": "ул. 60 лет Победы, третий рабочий поселок Октяборьский, вход со двора.",
-        "domain": "balashikha",
         "employee": {
             "fname": "Гусейн",
             "mname": "Магомедович",
@@ -19,7 +18,6 @@
                 }
             ]
         },
-        "photo": "https://i.ibb.co/y5kbF6d/imam-oktyabrsky.jpg",
         "email": "boec199@inbox.ru",
         "phoneNumber": "8 (926) 327-36-22",
         "smList": [],
@@ -32,9 +30,8 @@
     {
         "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3A82106dec230fc60fb340dbff33ad1f42c2371c81424db01578b1f2ba514aa566&amp;source=constructor",
         "name": "Балашиха",
-        "hostname":"balashikha.github.io",
+        "hostname": "balashikha.github.io",
         "address": "ул. 60 лет Победы, третий рабочий поселок Октяборьский, вход со двора.",
-        "domain": "balashikha",
         "employee": {
             "fname": "Гусейн",
             "mname": "Магомедович",
@@ -49,7 +46,6 @@
                 }
             ]
         },
-        "photo": "https://i.ibb.co/y5kbF6d/imam-oktyabrsky.jpg",
         "email": "boec199@inbox.ru",
         "phoneNumber": "8 (926) 327-36-22",
         "smList": [],
@@ -62,21 +58,63 @@
     {
         "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3A883789144e5eda5cd9a525408354d29d61a9825754a32d39dab13b22ec613264&amp;source=constructor",
         "name": "Октябрьский",
-        "hostname":"oktyabrsky.github.io",
+        "hostname": "oktyabrsky.github.io",
         "address": "ул. 60 лет Победы, третий рабочий поселок Октяборьский, вход со двора.",
-        "domain": "oktyabrsky",
         "employee": {
             "fname": "Мухаммад-Сиддик",
             "mname": "Алиевич",
             "lname": "Сидиков",
             "avatar": "https://i.ibb.co/y5kbF6d/imam-oktyabrsky.jpg",
-            "email": "boec199@inbox.ru",
+            "email": "AlievichMuhammad@yandex.ru",
             "phoneNumber": "8 (988) 778 66 66",
             "smList": []
         },
-        "photo": "https://i.ibb.co/y5kbF6d/imam-oktyabrsky.jpg",
-        "email": "boec199@inbox.ru",
+        "email": "AlievichMuhammad@yandex.ru",
         "phoneNumber": "8 (988) 778 66 66",
         "smList": []
+    },
+    {
+        "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3Abba9249b75296fd4b53ad57c184f07e0523c12311accc3659422b721f94dfdf5&amp;source=constructor",
+        "name": "Раменское",
+        "hostname": "ramenskoe.github.io",
+        "address": "Поселковая ул., 1А, посёлок совхоза Раменское.",
+        "employee": {
+            "fname": "Давуд",
+            "mname": "Магомедрасулович",
+            "lname": "Бисултанов",
+            "avatar": "https://i.ibb.co/RvrxnMs/photo-2022-12-01-11-44-47.jpg",
+            "email": "davud10031993@mail.ru",
+            "phoneNumber": "+7 989 874 3332",
+            "smList": []
+        },
+        "email": "davud10031993@mail.ru",
+        "phoneNumber": "+7 989 874 3332",
+        "smList": [
+            {
+                "icon": "https://img.icons8.com/fluency/240/null/instagram-new.png",
+                "path": "https://www.instagram.com/musulmane_ramenskoe"
+            },
+            {
+                "icon": "https://img.icons8.com/color/480/null/telegram-app--v1.png",
+                "path": "https://t.me/musulmane_ramenskoe"
+            },
+            {
+                "icon": "https://img.icons8.com/color/480/null/vk-circled--v1.png",
+                "path": "https://vk.com/musulmane_ramenskoe"
+            },
+            {
+                "icon": "https://img.icons8.com/color/480/null/youtube-play.png",
+                "path": "https://www.youtube.com/channel/UCDgVOL_UCZ6-Ojrbgaja02Q?app=desktop"
+            },
+            {
+                "icon": "https://img.icons8.com/ios-filled/500/null/tiktok--v1.png",
+                "path": "https://www.tiktok.com/@musulmane_ramenskoe"
+            }
+        ],
+        "album": [
+            "https://i.ibb.co/M7yvh8c/IMG-8112.jpg",
+            "https://i.ibb.co/89g5VFT/IMG-8109.jpg",
+            "https://i.ibb.co/dBZX1CN/IMG-8116.jpg"
+        ]
     }
 ]
