@@ -116,5 +116,59 @@
             "https://i.ibb.co/89g5VFT/IMG-8109.jpg",
             "https://i.ibb.co/dBZX1CN/IMG-8116.jpg"
         ]
+    },
+    {
+        "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3Af976d8c901f2bebde1dc22586ba3b7699b4293faf69a82c6dfc9ede6448b4420&amp;source=constructor",
+        "name": "Одинцово",
+        "hostname": "odintsovo.github.io",
+        "address": "Культурно-просветительский центр мусульман ул. Энергетиков, 3А, дачный посёлок Лесной Городок",
+        "employee": {
+            "fname": "Шамиль",
+            "mname": "Абдулгамидович",
+            "lname": "Магомедов",
+            "avatar": "https://i.ibb.co/QdgLJ9Z/DSC03276.jpg",
+            "email": "shamilsadu@mail.ru",
+            "phoneNumber": "89852420009",
+            "smList": []
+        },
+        "email": "shamilsadu@mail.ru",
+        "phoneNumber": "89852420009",
+        "smList": []
+    },
+    {
+        "yandex": "",
+        "name": "",
+        "hostname": "",
+        "address": "",
+        "employee": {
+            "fname": "",
+            "mname": "",
+            "lname": "",
+            "avatar": "",
+            "email": "",
+            "phoneNumber": "",
+            "smList": []
+        },
+        "email": "",
+        "phoneNumber": "",
+        "smList": []
+    },
+    {
+        "yandex": "",
+        "name": "",
+        "hostname": "",
+        "address": "",
+        "employee": {
+            "fname": "",
+            "mname": "",
+            "lname": "",
+            "avatar": "",
+            "email": "",
+            "phoneNumber": "",
+            "smList": []
+        },
+        "email": "",
+        "phoneNumber": "",
+        "smList": []
     }
 ]
