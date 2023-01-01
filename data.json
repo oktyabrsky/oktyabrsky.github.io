@@ -79,7 +79,7 @@
         "hostname": "ramenskoe.github.io",
         "address": "Поселковая ул., 1А, посёлок совхоза Раменское.",
         "employee": {
-            "fname": "Давуд",
+            "fname": "Давуд Хазрат",
             "mname": "Магомедрасулович",
             "lname": "Бисултанов",
             "avatar": "https://i.ibb.co/RvrxnMs/photo-2022-12-01-11-44-47.jpg",
@@ -151,7 +151,7 @@
         "hostname": "mytishchi.github.io",
         "address": "Московская область, Мытищи, 6-й Ленинский переулок, 8Б",
         "employee": {
-            "fname": "Магомед",
+            "fname": "Мухаммад Хазрат",
             "mname": "Гаджиевич",
             "lname": "Шахбанов",
             "avatar": "https://i.ibb.co/JvmGSp9/photo-2022-11-28-12-57-00.jpg",
@@ -208,6 +208,27 @@
         "album": [
             "https://i.ibb.co/fNFtWv2/photo-2022-11-28-20-00-43.jpg",
             "https://i.ibb.co/PwcG5wM/photo-2022-11-28-20-00-45.jpg"
+        ]
+    },
+    {
+        "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3Adc6d7b9916767ca2f9ae91421917277e952fef6f7b9a57c6e2eb0428d97a29e7&amp;source=constructor",
+        "name": "Андреевка",
+        "hostname": "andreevka.github.io",
+        "address": "Андреевка 24д",
+        "employee": {
+            "fname": "Рамазан",
+            "mname": "Шамилович",
+            "lname": "Нажмудинов",
+            "avatar": "https://i.ibb.co/rM79K5z/photo-2022-11-28-10-57-28-2.jpg",
+            "email": "mrom_zele@mail.ru",
+            "phoneNumber": "89090078282",
+            "smList": []
+        },
+        "email": "",
+        "phoneNumber": "",
+        "smList": [],
+        "album": [
+            "https://i.ibb.co/1QpK3WN/photo-2022-11-28-10-57-28.jpg"
         ]
     }
 ]
