@@ -129,11 +129,21 @@
             "avatar": "https://i.ibb.co/QdgLJ9Z/DSC03276.jpg",
             "email": "shamilsadu@mail.ru",
             "phoneNumber": "89852420009",
-            "smList": []
+            "smList": [
+                {
+                    "icon": "https://img.icons8.com/fluency/240/null/instagram-new.png",
+                    "path": "https://www.instagram.com/hazrat_shamil"
+                }
+            ]
         },
         "email": "shamilsadu@mail.ru",
         "phoneNumber": "89852420009",
-        "smList": []
+        "smList": [
+            {
+                "icon": "https://img.icons8.com/fluency/240/null/instagram-new.png",
+                "path": "https://www.instagram.com/musulmane_odintsovo"
+            }
+        ]
     },
     {
         "yandex": "",
