@@ -146,22 +146,37 @@
         ]
     },
     {
-        "yandex": "",
-        "name": "",
-        "hostname": "",
-        "address": "",
+        "yandex": "https://yandex.ru/map-widget/v1/?um=constructor%3A2e175060af8e873de7345e7e0c9c93087e6a3c45639cbf5753f11f3afbd9db15&amp;source=constructor",
+        "name": "Мытищи",
+        "hostname": "mytishchi.github.io",
+        "address": "Московская область, Мытищи, 6-й Ленинский переулок, 8Б",
         "employee": {
-            "fname": "",
-            "mname": "",
-            "lname": "",
-            "avatar": "",
+            "fname": "Магомед",
+            "mname": "Гаджиевич",
+            "lname": "Шахбанов",
+            "avatar": "https://i.ibb.co/JvmGSp9/photo-2022-11-28-12-57-00.jpg",
             "email": "",
             "phoneNumber": "",
-            "smList": []
+            "smList": [
+                {
+                    "icon": "https://img.icons8.com/fluency/240/null/instagram-new.png",
+                    "path": "https://www.instagram.com/mshahbanov"
+                }
+            ]
         },
         "email": "",
         "phoneNumber": "",
-        "smList": []
+        "smList": [
+            {
+                "icon": "https://img.icons8.com/fluency/240/null/instagram-new.png",
+                "path": "https://www.instagram.com/mrom_mytishchi"
+            }
+        ],
+        "album": [
+            "https://i.ibb.co/KFm5R5M/photo-2022-11-28-13-14-46.jpg",
+            "https://i.ibb.co/4VPNm5j/photo-2022-11-28-13-14-48.jpg",
+            "https://i.ibb.co/8gfzSqq/photo-2022-11-28-13-09-49.jpg"
+        ]
     },
     {
         "yandex": "",
